@@ -1,7 +1,7 @@
-// SPDX-License-Identifier: UNLICENSED
+// SPDX-License-Identifier: MIT
 pragma solidity 0.8.18;
 
-contract IterationVsMapping {
+contract IterationInMapping {
 
   // initialise a counter and an mapping in addition to the mapping you intend to iterate over
   uint counter; // you should initialize this to 0 in the constructor

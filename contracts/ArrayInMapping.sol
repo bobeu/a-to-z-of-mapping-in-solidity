@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: UNLICENSED
+// SPDX-License-Identifier: MIT
 pragma solidity 0.8.18;
 
 contract ArrayInMapping {
@@ -30,7 +30,7 @@ contract ArrayInMapping {
 
   /** @dev Replace an item in an array in mapping at a specific index
    */
-  function addItem(uint outerKey, uint index, bytes32 newHash) public {
+  function replaceItem(uint outerKey, uint index, bytes32 newHash) public {
     hashes[outerKey][index] = newHash;
   }
 
